@@ -7,7 +7,7 @@ export default function Header() {
   return (
       <Container className='container'>
           <div className="header">
-      <div className='left-side'>
+      <div className='left-side '>
       <div class="dropdown">
         <button class="dropbtn">language</button>
         <div class="dropdown-content">

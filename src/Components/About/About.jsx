@@ -16,7 +16,7 @@ export default function About() {
             <button className="btn-button  btn-smart"> READ MORE </button>
           </div>
         </div>
-        <div className="col-6">
+        <div className="col-md-6 col-sm-12">
           <div className="about__img">
             <img src="/img/pizza.jpg" alt="Pizza" />
           </div>
