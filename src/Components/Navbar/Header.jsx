@@ -28,7 +28,7 @@ export default function Header() {
       <div className='left-side'>
       <p>WhishList</p>
       <p>My Cart</p>
-      <p>Chack out</p>
+      <p>Check out</p>
       </div>
     
     
