@@ -12,7 +12,7 @@ import Shop from '../Components/Shop/Shop'
 
 export default function Home() {
   return (
-    <div>
+    <div id='home'>
         <Navbarr></Navbarr>
         <Banner></Banner>
         <About></About>
