@@ -51,8 +51,8 @@ function Navbarr() {
               ) : (
                 <>
                   <Nav.Link
-                    as={HashLink}
-                    to="/dashboard"
+                 as={NavLink} 
+                    to="dashboard"
                     className="text-white"
                   >
                     Dashboard
@@ -70,10 +70,10 @@ function Navbarr() {
                       />
                     }
                   >
-                    <div className="text-center d-flex justify-content-center  align-items-center ">
+                    <div className="text-center d-flex p-3 justify-content-center  align-items-center ">
                       <div>
-                        <h6>{displayName}</h6>
-                        <p className="m-0 ">{email}</p>
+                        <h5>{displayName}</h5>
+                        <p className="mb-2 mt-2">{email}</p>
                         <button onClick={logOut} className="btn btn-primary">
                           Sign Out
                         </button>

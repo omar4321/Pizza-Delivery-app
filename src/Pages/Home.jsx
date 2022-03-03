@@ -8,6 +8,7 @@ import Footer from '../Components/Footer/Footer'
 import Menu from '../Components/Menu/Menu'
 import Navbarr from '../Components/Navbar/Navbar'
 import Restaurant from '../Components/Restaurant/Restaurant'
+import Services from '../Components/Services/Services'
 import Shop from '../Components/Shop/Shop'
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
         <About></About>
         <Clients></Clients>
         <Menu></Menu>
+        <Services></Services>
         <Shop></Shop>
         <Restaurant></Restaurant>
         <ClientSection></ClientSection>
